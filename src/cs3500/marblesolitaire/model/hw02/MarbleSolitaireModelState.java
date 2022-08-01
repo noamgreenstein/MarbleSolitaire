@@ -7,7 +7,7 @@ package cs3500.marblesolitaire.model.hw02;
 public interface MarbleSolitaireModelState {
   /**
    * This enum represents the state of a single slot on the board. Every slot
-   * can either be empty, have a marble, or be an invalid position
+   * can either be empty, have a marble, or be an invalid position.
    */
   enum SlotState { Empty, Marble, Invalid }
 
